@@ -50,7 +50,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("Connected to MONGODB")
+	fmt.Println("Connected to MONGODB COMPASS")
 	collection = client.Database("todo-react-go-app").Collection("todo-react-go-app")
 	fmt.Println("Collection initialized:", collection.Name())
 
